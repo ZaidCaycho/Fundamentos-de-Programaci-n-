@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Optimizly
+    </title>
+</head>
+<body>
+
+    <h1>
+        Optimizly: Optimiza tus trabajos
+    </h1>
+
+    <h2>Agregue los contactos:</h2>
+    <form id="contacto">
+        <input type="text" id ="nombre-contacto" placeholder="Nombre del contacto">
+        <input type="email" id ="email-contacto" placeholder="Correo electrónico">
+        <button type="submit">
+            Agregar Contacto
+        </button>
+    </form>
+
+    <h2>Asigne las tareas:</h2>
+    <form id="tarea">
+        <input type="text" id ="asig-cont-tarea" placeholder="Elija el contacto">
+        <input type="text" id ="titulo-tarea" placeholder="Título de la tarea">
+        <input type="text" id ="desc-tarea" placeholder="Descripcion de la tarea">
+        <button type="submit">
+            Agregar tarea
+        </button>
+    </form>
+
+    <div class ="grupo-prioridades">
+        <div class ="seccion-prioridad">
+            <h3>Prioridad Alta</h3>
+            <ul class ="lista-tarea" id = "prioridad-alta" >
+                <li class = "item-tarea" >Lista de la prioridad alta</li>
+            </ul>
+        </div>
+
+        <div class ="seccion-prioridad">
+            <h3>Prioridad Media</h3>
+            <ul class ="lista-tarea" id = "prioridad-media" >
+                <li class = "item-tarea" >Lista de la prioridad media</li>
+            </ul>
+        </div>
+
+        <div class ="seccion-prioridad">
+            <h3>Prioridad Baja</h3>
+            <ul class ="lista-tarea" id = "prioridad-baja" >
+                <li class = "item-tarea" >Lista de la prioridad baja</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
